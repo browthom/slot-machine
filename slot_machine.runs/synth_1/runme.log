@@ -14,58 +14,58 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 16176 
+INFO: Helper process launched with PID 3052 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 355.832 ; gain = 98.840
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 356.223 ; gain = 99.535
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'top_level' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/slot_machine/slot_machine.srcs/sources_1/new/top_level.vhd:12]
-INFO: [Synth 8-3491] module 'delay_enable' declared at 'C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/delay_enable.vhd:6' bound to instance 'U1' of component 'delay_enable' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/slot_machine/slot_machine.srcs/sources_1/new/top_level.vhd:78]
-INFO: [Synth 8-638] synthesizing module 'delay_enable' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/delay_enable.vhd:12]
-INFO: [Synth 8-256] done synthesizing module 'delay_enable' (1#1) [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/delay_enable.vhd:12]
+INFO: [Synth 8-3491] module 'delay_enable' declared at 'C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/delay_enable.vhd:15' bound to instance 'U1' of component 'delay_enable' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/slot_machine/slot_machine.srcs/sources_1/new/top_level.vhd:78]
+INFO: [Synth 8-638] synthesizing module 'delay_enable' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/delay_enable.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'delay_enable' (1#1) [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/delay_enable.vhd:21]
 INFO: [Synth 8-3491] module 'victory_logic' declared at 'C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/slot_machine/slot_machine.srcs/sources_1/new/victory_logic.vhd:6' bound to instance 'V1' of component 'victory_logic' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/slot_machine/slot_machine.srcs/sources_1/new/top_level.vhd:84]
 INFO: [Synth 8-638] synthesizing module 'victory_logic' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/slot_machine/slot_machine.srcs/sources_1/new/victory_logic.vhd:12]
 INFO: [Synth 8-256] done synthesizing module 'victory_logic' (2#1) [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/slot_machine/slot_machine.srcs/sources_1/new/victory_logic.vhd:12]
-INFO: [Synth 8-3491] module 'var_clock_divider_2' declared at 'C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/var_clock_divider_2.vhd:10' bound to instance 'clk_div_c' of component 'var_clock_divider_2' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/slot_machine/slot_machine.srcs/sources_1/new/top_level.vhd:90]
-INFO: [Synth 8-638] synthesizing module 'var_clock_divider_2' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/var_clock_divider_2.vhd:16]
-INFO: [Synth 8-256] done synthesizing module 'var_clock_divider_2' (3#1) [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/var_clock_divider_2.vhd:16]
-INFO: [Synth 8-3491] module 'var_clock_divider_2' declared at 'C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/var_clock_divider_2.vhd:10' bound to instance 'clk_div_b' of component 'var_clock_divider_2' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/slot_machine/slot_machine.srcs/sources_1/new/top_level.vhd:93]
-INFO: [Synth 8-3491] module 'var_clock_divider_2' declared at 'C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/var_clock_divider_2.vhd:10' bound to instance 'clk_div_a' of component 'var_clock_divider_2' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/slot_machine/slot_machine.srcs/sources_1/new/top_level.vhd:96]
-INFO: [Synth 8-3491] module 'press_debouncer' declared at 'C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/press_debouncer.vhd:6' bound to instance 'stop_pb' of component 'press_debouncer' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/slot_machine/slot_machine.srcs/sources_1/new/top_level.vhd:100]
-INFO: [Synth 8-638] synthesizing module 'press_debouncer' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/press_debouncer.vhd:12]
-INFO: [Synth 8-256] done synthesizing module 'press_debouncer' (4#1) [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/press_debouncer.vhd:12]
-INFO: [Synth 8-3491] module 'press_debouncer' declared at 'C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/press_debouncer.vhd:6' bound to instance 'reset_pb' of component 'press_debouncer' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/slot_machine/slot_machine.srcs/sources_1/new/top_level.vhd:103]
-INFO: [Synth 8-3491] module 'flip_flop' declared at 'C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/flip_flop.vhd:6' bound to instance 'COUNT_ENABLE' of component 'flip_flop' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/slot_machine/slot_machine.srcs/sources_1/new/top_level.vhd:107]
-INFO: [Synth 8-638] synthesizing module 'flip_flop' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/flip_flop.vhd:11]
-INFO: [Synth 8-256] done synthesizing module 'flip_flop' (5#1) [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/flip_flop.vhd:11]
-INFO: [Synth 8-3491] module 'count_to_nine' declared at 'C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/count_to_nine.vhd:6' bound to instance 'COUNTER_C' of component 'count_to_nine' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/slot_machine/slot_machine.srcs/sources_1/new/top_level.vhd:113]
-INFO: [Synth 8-638] synthesizing module 'count_to_nine' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/count_to_nine.vhd:11]
-INFO: [Synth 8-256] done synthesizing module 'count_to_nine' (6#1) [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/count_to_nine.vhd:11]
-INFO: [Synth 8-3491] module 'count_to_nine' declared at 'C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/count_to_nine.vhd:6' bound to instance 'COUNTER_B' of component 'count_to_nine' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/slot_machine/slot_machine.srcs/sources_1/new/top_level.vhd:118]
-INFO: [Synth 8-3491] module 'count_to_nine' declared at 'C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/count_to_nine.vhd:6' bound to instance 'COUNTER_A' of component 'count_to_nine' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/slot_machine/slot_machine.srcs/sources_1/new/top_level.vhd:123]
-INFO: [Synth 8-3491] module 'seven_segment_decoder' declared at 'C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/seven_segment_decoder.vhd:6' bound to instance 'SEG_DEC_D' of component 'seven_segment_decoder' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/slot_machine/slot_machine.srcs/sources_1/new/top_level.vhd:129]
-INFO: [Synth 8-638] synthesizing module 'seven_segment_decoder' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/seven_segment_decoder.vhd:12]
-INFO: [Synth 8-256] done synthesizing module 'seven_segment_decoder' (7#1) [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/seven_segment_decoder.vhd:12]
-INFO: [Synth 8-3491] module 'bcd_seven_segment_decoder' declared at 'C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/bcd_to_seven_segment_decoder.vhd:6' bound to instance 'SEG_DEC_C' of component 'bcd_seven_segment_decoder' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/slot_machine/slot_machine.srcs/sources_1/new/top_level.vhd:132]
-INFO: [Synth 8-638] synthesizing module 'bcd_seven_segment_decoder' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/bcd_to_seven_segment_decoder.vhd:12]
-INFO: [Synth 8-256] done synthesizing module 'bcd_seven_segment_decoder' (8#1) [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/bcd_to_seven_segment_decoder.vhd:12]
-INFO: [Synth 8-3491] module 'bcd_seven_segment_decoder' declared at 'C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/bcd_to_seven_segment_decoder.vhd:6' bound to instance 'SEG_DEC_B' of component 'bcd_seven_segment_decoder' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/slot_machine/slot_machine.srcs/sources_1/new/top_level.vhd:135]
-INFO: [Synth 8-3491] module 'bcd_seven_segment_decoder' declared at 'C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/bcd_to_seven_segment_decoder.vhd:6' bound to instance 'SEG_DEC_A' of component 'bcd_seven_segment_decoder' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/slot_machine/slot_machine.srcs/sources_1/new/top_level.vhd:138]
-INFO: [Synth 8-3491] module 'multiplexer_seven_segment_display' declared at 'C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/multiplexer_seven_segment_display.vhd:6' bound to instance 'M1' of component 'multiplexer_seven_segment_display' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/slot_machine/slot_machine.srcs/sources_1/new/top_level.vhd:142]
-INFO: [Synth 8-638] synthesizing module 'multiplexer_seven_segment_display' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/multiplexer_seven_segment_display.vhd:13]
-INFO: [Synth 8-3491] module 'var_clock_divider_2' declared at 'C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/var_clock_divider_2.vhd:10' bound to instance 'mux_clk_div' of component 'var_clock_divider_2' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/multiplexer_seven_segment_display.vhd:43]
-INFO: [Synth 8-3491] module 'two_bit_counter' declared at 'C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/two_bit_counter.vhd:6' bound to instance 'mux_cntr' of component 'two_bit_counter' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/multiplexer_seven_segment_display.vhd:47]
-INFO: [Synth 8-638] synthesizing module 'two_bit_counter' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/two_bit_counter.vhd:11]
-INFO: [Synth 8-256] done synthesizing module 'two_bit_counter' (9#1) [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/two_bit_counter.vhd:11]
-INFO: [Synth 8-3491] module 'anode_selector' declared at 'C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/anode_selector.vhd:6' bound to instance 'anode_sel' of component 'anode_selector' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/multiplexer_seven_segment_display.vhd:51]
-INFO: [Synth 8-638] synthesizing module 'anode_selector' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/anode_selector.vhd:11]
-INFO: [Synth 8-256] done synthesizing module 'anode_selector' (10#1) [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/anode_selector.vhd:11]
-INFO: [Synth 8-3491] module 'multiplexer_8_bit_4_to_1' declared at 'C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/multiplexer_8_bit_4_to_1.vhd:6' bound to instance 'M1' of component 'multiplexer_8_bit_4_to_1' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/multiplexer_seven_segment_display.vhd:54]
-INFO: [Synth 8-638] synthesizing module 'multiplexer_8_bit_4_to_1' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/multiplexer_8_bit_4_to_1.vhd:12]
-INFO: [Synth 8-256] done synthesizing module 'multiplexer_8_bit_4_to_1' (11#1) [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/multiplexer_8_bit_4_to_1.vhd:12]
-INFO: [Synth 8-256] done synthesizing module 'multiplexer_seven_segment_display' (12#1) [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/multiplexer_seven_segment_display.vhd:13]
+INFO: [Synth 8-3491] module 'var_clock_divider_2' declared at 'C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/var_clock_divider_2.vhd:11' bound to instance 'clk_div_c' of component 'var_clock_divider_2' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/slot_machine/slot_machine.srcs/sources_1/new/top_level.vhd:90]
+INFO: [Synth 8-638] synthesizing module 'var_clock_divider_2' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/var_clock_divider_2.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'var_clock_divider_2' (3#1) [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/var_clock_divider_2.vhd:17]
+INFO: [Synth 8-3491] module 'var_clock_divider_2' declared at 'C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/var_clock_divider_2.vhd:11' bound to instance 'clk_div_b' of component 'var_clock_divider_2' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/slot_machine/slot_machine.srcs/sources_1/new/top_level.vhd:93]
+INFO: [Synth 8-3491] module 'var_clock_divider_2' declared at 'C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/var_clock_divider_2.vhd:11' bound to instance 'clk_div_a' of component 'var_clock_divider_2' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/slot_machine/slot_machine.srcs/sources_1/new/top_level.vhd:96]
+INFO: [Synth 8-3491] module 'press_debouncer' declared at 'C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/press_debouncer.vhd:10' bound to instance 'stop_pb' of component 'press_debouncer' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/slot_machine/slot_machine.srcs/sources_1/new/top_level.vhd:100]
+INFO: [Synth 8-638] synthesizing module 'press_debouncer' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/press_debouncer.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'press_debouncer' (4#1) [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/press_debouncer.vhd:16]
+INFO: [Synth 8-3491] module 'press_debouncer' declared at 'C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/press_debouncer.vhd:10' bound to instance 'reset_pb' of component 'press_debouncer' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/slot_machine/slot_machine.srcs/sources_1/new/top_level.vhd:103]
+INFO: [Synth 8-3491] module 'flip_flop' declared at 'C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/flip_flop.vhd:9' bound to instance 'COUNT_ENABLE' of component 'flip_flop' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/slot_machine/slot_machine.srcs/sources_1/new/top_level.vhd:107]
+INFO: [Synth 8-638] synthesizing module 'flip_flop' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/flip_flop.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'flip_flop' (5#1) [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/flip_flop.vhd:14]
+INFO: [Synth 8-3491] module 'count_to_nine' declared at 'C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/count_to_nine.vhd:9' bound to instance 'COUNTER_C' of component 'count_to_nine' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/slot_machine/slot_machine.srcs/sources_1/new/top_level.vhd:113]
+INFO: [Synth 8-638] synthesizing module 'count_to_nine' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/count_to_nine.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'count_to_nine' (6#1) [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/count_to_nine.vhd:14]
+INFO: [Synth 8-3491] module 'count_to_nine' declared at 'C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/count_to_nine.vhd:9' bound to instance 'COUNTER_B' of component 'count_to_nine' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/slot_machine/slot_machine.srcs/sources_1/new/top_level.vhd:118]
+INFO: [Synth 8-3491] module 'count_to_nine' declared at 'C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/count_to_nine.vhd:9' bound to instance 'COUNTER_A' of component 'count_to_nine' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/slot_machine/slot_machine.srcs/sources_1/new/top_level.vhd:123]
+INFO: [Synth 8-3491] module 'seven_segment_decoder' declared at 'C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/seven_segment_decoder.vhd:19' bound to instance 'SEG_DEC_D' of component 'seven_segment_decoder' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/slot_machine/slot_machine.srcs/sources_1/new/top_level.vhd:129]
+INFO: [Synth 8-638] synthesizing module 'seven_segment_decoder' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/seven_segment_decoder.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'seven_segment_decoder' (7#1) [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/seven_segment_decoder.vhd:25]
+INFO: [Synth 8-3491] module 'bcd_seven_segment_decoder' declared at 'C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/bcd_to_seven_segment_decoder.vhd:20' bound to instance 'SEG_DEC_C' of component 'bcd_seven_segment_decoder' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/slot_machine/slot_machine.srcs/sources_1/new/top_level.vhd:132]
+INFO: [Synth 8-638] synthesizing module 'bcd_seven_segment_decoder' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/bcd_to_seven_segment_decoder.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'bcd_seven_segment_decoder' (8#1) [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/bcd_to_seven_segment_decoder.vhd:26]
+INFO: [Synth 8-3491] module 'bcd_seven_segment_decoder' declared at 'C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/bcd_to_seven_segment_decoder.vhd:20' bound to instance 'SEG_DEC_B' of component 'bcd_seven_segment_decoder' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/slot_machine/slot_machine.srcs/sources_1/new/top_level.vhd:135]
+INFO: [Synth 8-3491] module 'bcd_seven_segment_decoder' declared at 'C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/bcd_to_seven_segment_decoder.vhd:20' bound to instance 'SEG_DEC_A' of component 'bcd_seven_segment_decoder' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/slot_machine/slot_machine.srcs/sources_1/new/top_level.vhd:138]
+INFO: [Synth 8-3491] module 'multiplexer_seven_segment_display' declared at 'C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/multiplexer_seven_segment_display.vhd:9' bound to instance 'M1' of component 'multiplexer_seven_segment_display' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/slot_machine/slot_machine.srcs/sources_1/new/top_level.vhd:142]
+INFO: [Synth 8-638] synthesizing module 'multiplexer_seven_segment_display' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/multiplexer_seven_segment_display.vhd:16]
+INFO: [Synth 8-3491] module 'var_clock_divider_2' declared at 'C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/var_clock_divider_2.vhd:11' bound to instance 'mux_clk_div' of component 'var_clock_divider_2' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/multiplexer_seven_segment_display.vhd:46]
+INFO: [Synth 8-3491] module 'two_bit_counter' declared at 'C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/two_bit_counter.vhd:9' bound to instance 'mux_cntr' of component 'two_bit_counter' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/multiplexer_seven_segment_display.vhd:50]
+INFO: [Synth 8-638] synthesizing module 'two_bit_counter' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/two_bit_counter.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'two_bit_counter' (9#1) [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/two_bit_counter.vhd:14]
+INFO: [Synth 8-3491] module 'anode_selector' declared at 'C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/anode_selector.vhd:10' bound to instance 'anode_sel' of component 'anode_selector' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/multiplexer_seven_segment_display.vhd:54]
+INFO: [Synth 8-638] synthesizing module 'anode_selector' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/anode_selector.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'anode_selector' (10#1) [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/anode_selector.vhd:15]
+INFO: [Synth 8-3491] module 'multiplexer_8_bit_4_to_1' declared at 'C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/multiplexer_8_bit_4_to_1.vhd:9' bound to instance 'M1' of component 'multiplexer_8_bit_4_to_1' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/multiplexer_seven_segment_display.vhd:57]
+INFO: [Synth 8-638] synthesizing module 'multiplexer_8_bit_4_to_1' [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/multiplexer_8_bit_4_to_1.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'multiplexer_8_bit_4_to_1' (11#1) [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/multiplexer_8_bit_4_to_1.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'multiplexer_seven_segment_display' (12#1) [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/VHDL Custom Module Directory/multiplexer_seven_segment_display.vhd:16]
 INFO: [Synth 8-256] done synthesizing module 'top_level' (13#1) [C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/slot_machine/slot_machine.srcs/sources_1/new/top_level.vhd:12]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 411.016 ; gain = 154.023
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 410.828 ; gain = 154.141
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -78,10 +78,10 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 411.016 ; gain = 154.023
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 410.828 ; gain = 154.141
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 411.016 ; gain = 154.023
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 410.828 ; gain = 154.141
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -97,25 +97,25 @@ Completed Processing XDC Constraints
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 749.055 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.086 . Memory (MB): peak = 748.727 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 749.055 ; gain = 492.063
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:23 . Memory (MB): peak = 748.727 ; gain = 492.039
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 749.055 ; gain = 492.063
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:23 . Memory (MB): peak = 748.727 ; gain = 492.039
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 749.055 ; gain = 492.063
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:23 . Memory (MB): peak = 748.727 ; gain = 492.039
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 749.055 ; gain = 492.063
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 748.727 ; gain = 492.039
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -213,7 +213,7 @@ Warning: Parallel synthesis criteria is not met
 WARNING: [Synth 8-3917] design top_level has port seg_out[7] driven by constant 1
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/\U1/delay_temp_reg[29] )
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 749.055 ; gain = 492.063
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 748.727 ; gain = 492.039
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -225,13 +225,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 749.055 ; gain = 492.063
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:34 ; elapsed = 00:00:42 . Memory (MB): peak = 748.727 ; gain = 492.039
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 763.723 ; gain = 506.730
+Finished Timing Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:43 . Memory (MB): peak = 762.809 ; gain = 506.121
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -243,7 +243,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 763.723 ; gain = 506.730
+Finished Technology Mapping : Time (s): cpu = 00:00:35 ; elapsed = 00:00:44 . Memory (MB): peak = 762.809 ; gain = 506.121
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -267,7 +267,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:29 ; elapsed = 00:00:33 . Memory (MB): peak = 763.723 ; gain = 506.730
+Finished IO Insertion : Time (s): cpu = 00:00:36 ; elapsed = 00:00:46 . Memory (MB): peak = 762.809 ; gain = 506.121
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -280,7 +280,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:29 ; elapsed = 00:00:33 . Memory (MB): peak = 763.723 ; gain = 506.730
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:36 ; elapsed = 00:00:46 . Memory (MB): peak = 762.809 ; gain = 506.121
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -292,25 +292,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:29 ; elapsed = 00:00:33 . Memory (MB): peak = 763.723 ; gain = 506.730
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:36 ; elapsed = 00:00:46 . Memory (MB): peak = 762.809 ; gain = 506.121
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:29 ; elapsed = 00:00:33 . Memory (MB): peak = 763.723 ; gain = 506.730
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:36 ; elapsed = 00:00:46 . Memory (MB): peak = 762.809 ; gain = 506.121
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:29 ; elapsed = 00:00:33 . Memory (MB): peak = 763.723 ; gain = 506.730
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:36 ; elapsed = 00:00:46 . Memory (MB): peak = 762.809 ; gain = 506.121
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:29 ; elapsed = 00:00:33 . Memory (MB): peak = 763.723 ; gain = 506.730
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:36 ; elapsed = 00:00:46 . Memory (MB): peak = 762.809 ; gain = 506.121
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -357,11 +357,11 @@ Report Instance Areas:
 |11    |  stop_pb      |press_debouncer_2                 |   183|
 +------+---------------+----------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:29 ; elapsed = 00:00:33 . Memory (MB): peak = 763.723 ; gain = 506.730
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:36 ; elapsed = 00:00:46 . Memory (MB): peak = 762.809 ; gain = 506.121
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:24 . Memory (MB): peak = 763.723 ; gain = 168.691
-Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:33 . Memory (MB): peak = 763.723 ; gain = 506.730
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:34 . Memory (MB): peak = 762.809 ; gain = 168.223
+Synthesis Optimization Complete : Time (s): cpu = 00:00:37 ; elapsed = 00:00:46 . Memory (MB): peak = 762.809 ; gain = 506.121
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 40 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -373,9 +373,9 @@ No Unisim elements were transformed.
 INFO: [Common 17-83] Releasing license: Synthesis
 59 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 763.723 ; gain = 519.879
+synth_design: Time (s): cpu = 00:00:39 ; elapsed = 00:00:50 . Memory (MB): peak = 762.809 ; gain = 518.766
 WARNING: [Constraints 18-5210] No constraint will be written out.
 INFO: [Common 17-1381] The checkpoint 'C:/Users/browt/Documents/EE-CE Materials/VHDL Projects/slot_machine/slot_machine.runs/synth_1/top_level.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file top_level_utilization_synth.rpt -pb top_level_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 763.723 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Mon Nov 11 16:27:12 2019...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.231 . Memory (MB): peak = 762.809 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sun Dec 15 17:17:10 2019...
